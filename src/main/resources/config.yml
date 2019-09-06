@@ -1,0 +1,11 @@
+# Tracking changes in between versions to add new values (do not edit manually)
+config-version: 1
+coords-format: "&6&l{direction}&r&6 | &lX&r&6: {coordX} / &lY&r&6: {coordY} / &lZ&r&6: {coordZ}"
+
+# Specify the worlds you want to enable this plugin in
+enabled-worlds:
+ - world
+ - world_nether
+ - world_the_end
+
+config-reloaded-message: "&2ZeroCoords configuration reloaded!"

@@ -1,0 +1,25 @@
+name: ZeroCoords
+version: 1.0
+author: Zero
+main: io.github.animeavi.zerocoords.ZC
+api-version: 1.14
+depend: [ActionBarAPI]
+
+commands:
+  zcreload:
+    Description: Reloads the configuration file
+    usage: /zcreload
+    permission: zc.reload
+  showcoords:
+    Description: Toggle showing coords
+    usage: /showcoords
+    permission: zc.toggle
+
+
+permissions:
+  zc.reload:
+    description: Allows player to reload the config file for ZeroCoords
+    default: op
+  zc.toggle:
+    description: Allows player to toggle the display of coords
+    default: true
